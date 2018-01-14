@@ -1,0 +1,1420 @@
+fileFormatVersion: 2
+guid: b524ec66bf4b8934995fdc200bebb479
+timeCreated: 1513212170
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: game_icons_0
+    21300002: game_icons_1
+    21300004: game_icons_2
+    21300006: game_icons_3
+    21300008: game_icons_4
+    21300010: game_icons_5
+    21300012: game_icons_6
+    21300014: game_icons_7
+    21300016: game_icons_8
+    21300018: game_icons_9
+    21300020: game_icons_10
+    21300022: game_icons_11
+    21300024: game_icons_12
+    21300026: game_icons_13
+    21300028: game_icons_14
+    21300030: game_icons_15
+    21300032: game_icons_16
+    21300034: game_icons_17
+    21300036: game_icons_18
+    21300038: game_icons_19
+    21300040: game_icons_20
+    21300042: game_icons_21
+    21300044: game_icons_22
+    21300046: game_icons_23
+    21300048: game_icons_24
+    21300050: game_icons_25
+    21300052: game_icons_26
+    21300054: game_icons_27
+    21300056: game_icons_28
+    21300058: game_icons_29
+    21300060: game_icons_30
+    21300062: game_icons_31
+    21300064: game_icons_32
+    21300066: game_icons_33
+    21300068: game_icons_34
+    21300070: game_icons_35
+    21300072: game_icons_36
+    21300074: game_icons_37
+    21300076: game_icons_38
+    21300078: game_icons_39
+    21300080: game_icons_40
+    21300082: game_icons_41
+    21300084: game_icons_42
+    21300086: game_icons_43
+    21300088: game_icons_44
+    21300090: game_icons_45
+    21300092: game_icons_46
+    21300094: game_icons_47
+    21300096: game_icons_48
+    21300098: game_icons_49
+    21300100: game_icons_50
+    21300102: game_icons_51
+    21300104: game_icons_52
+    21300106: game_icons_53
+    21300108: game_icons_54
+    21300110: game_icons_55
+    21300112: game_icons_56
+    21300114: game_icons_57
+    21300116: game_icons_58
+    21300118: game_icons_59
+    21300120: game_icons_60
+    21300122: game_icons_61
+    21300124: game_icons_62
+    21300126: game_icons_63
+    21300128: game_icons_64
+    21300130: game_icons_65
+    21300132: game_icons_66
+    21300134: game_icons_67
+    21300136: game_icons_68
+    21300138: game_icons_69
+    21300140: game_icons_70
+    21300142: game_icons_71
+    21300144: game_icons_72
+    21300146: game_icons_73
+    21300148: game_icons_74
+    21300150: game_icons_75
+    21300152: game_icons_76
+    21300154: game_icons_77
+    21300156: game_icons_78
+    21300158: game_icons_79
+    21300160: game_icons_80
+    21300162: game_icons_81
+    21300164: game_icons_82
+    21300166: game_icons_83
+    21300168: game_icons_84
+    21300170: game_icons_85
+    21300172: game_icons_86
+    21300174: game_icons_87
+    21300176: game_icons_88
+    21300178: game_icons_89
+    21300180: game_icons_90
+    21300182: game_icons_91
+    21300184: game_icons_92
+    21300186: game_icons_93
+    21300188: game_icons_94
+    21300190: game_icons_95
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: game_icons_0
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 414
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 414
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 414
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_3
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 414
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_4
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 414
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_5
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 414
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_6
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 414
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_7
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 414
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_8
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 414
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_9
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 414
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_10
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 414
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_11
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 414
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_12
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 361
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_13
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 361
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_14
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 361
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_15
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 361
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_16
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 361
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_17
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 361
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_18
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 361
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_19
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 361
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_20
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 361
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_21
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 361
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_22
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 361
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_23
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 361
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_24
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 308
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_25
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 308
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_26
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 308
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_27
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 308
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_28
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 308
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_29
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 308
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_30
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 308
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_31
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 308
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_32
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 308
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_33
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 308
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_34
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 308
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_35
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 308
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_36
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 255
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_37
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 255
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_38
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 255
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_39
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 255
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_40
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 255
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_41
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 255
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_42
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 255
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_43
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 255
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_44
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 255
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_45
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 255
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_46
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 255
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_47
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 255
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_48
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 202
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_49
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 202
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_50
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 202
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_51
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 202
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_52
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 202
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_53
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 202
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_54
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 202
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_55
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 202
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_56
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 202
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_57
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 202
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_58
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 202
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_59
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 202
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_60
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 149
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_61
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 149
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_62
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 149
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_63
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 149
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_64
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 149
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_65
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 149
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_66
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 149
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_67
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 149
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_68
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 149
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_69
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 149
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_70
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 149
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_71
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 149
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_72
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 96
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_73
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 96
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_74
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 96
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_75
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 96
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_76
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 96
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_77
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 96
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_78
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 96
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_79
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 96
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_80
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 96
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_81
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 96
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_82
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 96
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_83
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 96
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_84
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 43
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_85
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 43
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_86
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 43
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_87
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 43
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_88
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 43
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_89
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 43
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_90
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 43
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_91
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 43
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_92
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 43
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_93
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 43
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_94
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 43
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: game_icons_95
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 43
+        width: 50
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
