@@ -9,7 +9,7 @@ public static class SaveGameSystem
     {
         BinaryFormatter formatter = new BinaryFormatter();
 
-        using (FileStream stream = new FileStream(GetSavePath(name), FileMode.Create))
+        using (FileStream stream = new FileStream(GetSavePath(name)+".sav", FileMode.Create))
         {
             try
             {
@@ -67,6 +67,6 @@ public static class SaveGameSystem
 
     private static string GetSavePath(string name)
     {
-        return Path.Combine(Application.persistentDataPath, name + ".sav");
+        return Path.Combine(Application.persistentDataPath, name);
     }
 }

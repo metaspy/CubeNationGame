@@ -165,6 +165,8 @@
     <Compile Include="Assets\Resources\Scripts\RPGCamera.cs" />
     <Compile Include="Assets\Resources\Scripts\SaveGame.cs" />
     <Compile Include="Assets\Resources\Scripts\SaveGameSystem.cs" />
+    <Compile Include="Assets\Resources\Scripts\SaveOptions.cs" />
+    <Compile Include="Assets\Resources\Scripts\SaveOptionsSystem.cs" />
     <Compile Include="Assets\Resources\Scripts\SceneManager.cs" />
     <Compile Include="Assets\Resources\Scripts\WorldSelect.cs" />
   </ItemGroup>

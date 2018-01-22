@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using UnityEngine;
 
 public class NewChar : MonoBehaviour {
+    private GameObject SM;
     public Transform playerParent;
     private GameObject playerModel;
     private GameObject playerWeapon;
@@ -27,6 +28,7 @@ public class NewChar : MonoBehaviour {
     
     // Use this for initialization
     void Start () {
+        SM = GameObject.FindGameObjectWithTag("SceneManager");
         UpdateModel();
      }
 	
@@ -183,16 +185,20 @@ public class NewChar : MonoBehaviour {
             // we will need to put inventory, skill bar, and talenttree in here
             System.DateTime epochStart = new System.DateTime(1970, 1, 1, 0, 0, 0, System.DateTimeKind.Utc);
             int cur_time = (int)(System.DateTime.UtcNow - epochStart).TotalSeconds;
-            SaveGameSystem.SaveGame(mySaveGame1, nameField.text + cur_time ); // Saves as MySaveGame.sav
+            SaveGameSystem.SaveGame(mySaveGame1, nameField.text + cur_time );
 
-            // Loading a saved game.
-            // MySaveGame mySaveGame2 = SaveGameSystem.LoadGame("MySaveGame") as MySaveGame;
-            //Debug.Log(mySaveGame2.playerName); 
-            //Debug.Log(mySaveGame2.species);
-            //Debug.Log(mySaveGame2.classID);
-            //Debug.Log(mySaveGame2.faceID);
+            SM.GetComponent<SceneManager>().CharacterSaveFile = nameField.text + cur_time;
+
+            UnityEngine.SceneManagement.SceneManager.UnloadSceneAsync("NewChar");
+            UnityEngine.SceneManagement.SceneManager.LoadSceneAsync("WorldSelect", UnityEngine.SceneManagement.LoadSceneMode.Additive);
         }
         
+    }
+
+    public void Back()
+    {
+        UnityEngine.SceneManagement.SceneManager.UnloadSceneAsync("NewChar");
+        UnityEngine.SceneManagement.SceneManager.LoadSceneAsync("CharacterSelect", UnityEngine.SceneManagement.LoadSceneMode.Additive);
     }
 
 }
@@ -211,6 +217,11 @@ public class MySaveGame : SaveGame
     public int level { get; set; }
     
     public int currentXP { get; set; }
+
+    // considered putting in HP / MP, but we can calculate these when the file is loaded and we have their
+    // level, class, and skill tree
+
+    public List<int> gear { get; set; } // we will have to work out how we handle this later
 
     public List<int> inventory { get; set; } // we will have to work out how we handle this later
 

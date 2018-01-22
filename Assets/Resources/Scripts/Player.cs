@@ -8,6 +8,11 @@ public class Player : MonoBehaviour {
     public bool menuShowing = false;
     public bool showQuests = false;
     private GameObject SM;
+    public int classID;
+    public int species;
+    public int face;
+    public string charName;
+
 
     // compass
     public Vector3 northDirection;
@@ -20,7 +25,7 @@ public class Player : MonoBehaviour {
     // XP and level variables
     private int currentXP;
     private int maxXP;
-    private int level;
+    public int level;
     private float minXPXValue;
     private float maxXPXValue;
     public RectTransform XPTransform;
@@ -72,6 +77,7 @@ public class Player : MonoBehaviour {
     private int MPRegen;
     private bool MPRegenOnCD;
     public Image MPImage;
+    public KeyCode[] abilityKeyCode;
     public int[] abilityCooldown = new int[] { 5, 7, -1, -1, -1, -1, -1, -1, -1, -1 };
     public int[] ability = new int[] { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 };
     public int[] manaCost = new int[] { 50, 75, -1, -1, -1, -1, -1, -1, -1, -1 };
@@ -90,6 +96,9 @@ public class Player : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+        abilityKeyCode = new KeyCode[10];
+        for (int i = 0; i < abilityKeyCode.Length; i++) { abilityKeyCode[i] = KeyCode.None; }
+
         SM = GameObject.FindGameObjectWithTag("SceneManager");
         if (showQuests)
         {
@@ -103,15 +112,17 @@ public class Player : MonoBehaviour {
         // initialize the X position for the HP bars
         maxHPXValue = HPTransform.position.x;
         minHPXValue = HPTransform.position.x - HPTransform.rect.width;
-        // set current HP to Max
-        CurrentHP = maxHP;
-
-        // load character stats, abilities, and such
-        LoadCharacter(SM.GetComponent<SceneManager>().CharacterSaveFile);
 
         // initialize X position for the MP bars
         maxMPXValue = MPTransform.position.x;
         minMPXValue = MPTransform.position.x - MPTransform.rect.width;
+        
+        // load character stats, abilities, and such
+        LoadCharacter(SM.GetComponent<SceneManager>().CharacterSaveFile);
+
+        // set current HP to Max
+        CurrentHP = maxHP;
+
         // set current MP to max
         CurrentMP = maxMP;
         
@@ -122,15 +133,32 @@ public class Player : MonoBehaviour {
 	
     public void LoadCharacter(string filename)
     {
-        // someday we will have a load function for the characters that will set things like HP Regen
-        // until then, we set it here
-        HPRegen = 1;
-        MPRegen = 1;
+        MySaveGame mySaveGame = SaveGameSystem.LoadGame(filename) as MySaveGame;
+        
+        // level = mySaveGame.level;
+        // CurrentXP = mySaveGame.currentXP;
+        species = mySaveGame.species;
+        face = mySaveGame.faceID;
+        classID = mySaveGame.classID;
+        charName = mySaveGame.playerName;
+
+        // these will be replaced by our save file loading
+
+        CurrentXP = 0;
+        level = 1;
         ability[0] = 0;
         ability[1] = 1;
-        level = 1;
+
+
+        // now that we can load from file, 
+        // we need to calculate all the side stuff
+        // skill tree or class affects
+
+        maxHP = 100; // 
+        HPRegen = 1; // 
+        MPRegen = 1; // 
         maxXP = level * level + 1;
-        CurrentXP = 0;
+        
         
     }
 
@@ -149,7 +177,7 @@ public class Player : MonoBehaviour {
             UnityEngine.SceneManagement.SceneManager.UnloadSceneAsync("InGameMenus");
         }
 
-        if (Input.GetKeyUp(KeyCode.Keypad1) || Input.GetKeyUp(KeyCode.Alpha1))
+        if (Input.GetKeyUp(SM.GetComponent<SceneManager>().abilityCode[0]))
         {
             // check if there is an ability on that slot
             if (ability[0] != -1)
@@ -159,7 +187,7 @@ public class Player : MonoBehaviour {
             }
         }
         // check for button code 2 pressed
-        if (Input.GetKeyUp(KeyCode.Keypad2) || Input.GetKeyUp(KeyCode.Alpha2))
+        if (Input.GetKeyUp(SM.GetComponent<SceneManager>().abilityCode[1]))
         {
             // check if there is an ability assigned to that slot
             if (ability[1] != -1)
@@ -168,7 +196,57 @@ public class Player : MonoBehaviour {
                 UseAbility(ability[1]);
             }
         }
-        // ***** just for testing at the moment - Z key
+        // check for button code 3 pressed
+        if (Input.GetKeyUp(SM.GetComponent<SceneManager>().abilityCode[2]))
+        {
+            // check if there is an ability assigned to that slot
+            if (ability[1] != -1)
+            {
+                // use it - this will check for cooldowns and mana availablility
+                UseAbility(ability[2]);
+            }
+        }
+        // check for button code 4 pressed
+        if (Input.GetKeyUp(SM.GetComponent<SceneManager>().abilityCode[3]))
+        {
+            // check if there is an ability assigned to that slot
+            if (ability[1] != -1)
+            {
+                // use it - this will check for cooldowns and mana availablility
+                UseAbility(ability[3]);
+            }
+        }
+        // check for button code 5 pressed
+        if (Input.GetKeyUp(SM.GetComponent<SceneManager>().abilityCode[4]))
+        {
+            // check if there is an ability assigned to that slot
+            if (ability[1] != -1)
+            {
+                // use it - this will check for cooldowns and mana availablility
+                UseAbility(ability[4]);
+            }
+        }
+        // check for button code 6 pressed
+        if (Input.GetKeyUp(SM.GetComponent<SceneManager>().abilityCode[5]))
+        {
+            // check if there is an ability assigned to that slot
+            if (ability[1] != -1)
+            {
+                // use it - this will check for cooldowns and mana availablility
+                UseAbility(ability[5]);
+            }
+        }
+        // check for button code 7 pressed
+        if (Input.GetKeyUp(SM.GetComponent<SceneManager>().abilityCode[6]))
+        {
+            // check if there is an ability assigned to that slot
+            if (ability[1] != -1)
+            {
+                // use it - this will check for cooldowns and mana availablility
+                UseAbility(ability[6]);
+            }
+        }
+        // ***** just for testing at the moment - Z and X key ****************
         if (Input.GetKeyUp(KeyCode.Z))
         {
             // deal 10 damage
@@ -178,6 +256,8 @@ public class Player : MonoBehaviour {
         {
             GainXP(100);
         }
+
+        // ******* End just for testing ***********************************
 
         ChangeMissionDirection();
         ChangeNorthDirection();
@@ -286,9 +366,15 @@ public class Player : MonoBehaviour {
     void Levelup()
     {
         // Debug.Log("Level: " + level);
+        // increase level
         level++;
+        // set how much xp is needed for next level
         maxXP = level * level +1;
+        // set current xp to 0
         CurrentXP = 0;
+        // sets HP and MP to max on levelup
+        CurrentHP = maxHP; 
+        currentMP = maxMP;
     }
 
     // adjusts UI on mana bar based on current MP
